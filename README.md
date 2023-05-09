@@ -1,7 +1,7 @@
 # isogramma
 Questo programma, data una stringa, controlla se è un isogramma o no. 
 ### Codice
-
+```
 public static bool Verifica(string word)
 {
     string [] parole = word.Split(' ','-');
@@ -18,3 +18,4 @@ public static bool Verifica(string word)
     }
     return true;
 }
+```
