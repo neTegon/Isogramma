@@ -5,7 +5,6 @@ public static class Isogramma
 {
     public static bool Verifica(string word)
     {
-        //non mi funzionano nei test con le doppie
         string [] parole = word.Split(' ','-');
         string app= String.Join("",parole).ToLower();
         for (int i = 0; i < app.Length; i++)
